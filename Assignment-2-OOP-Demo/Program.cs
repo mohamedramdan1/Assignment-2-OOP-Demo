@@ -1,4 +1,5 @@
-﻿using Assignment_2_OOP_Demo.Encapsulation;
+﻿using System.Transactions;
+using Assignment_2_OOP_Demo.Encapsulation;
 
 namespace Assignment_2_OOP_Demo
 {
@@ -79,6 +80,43 @@ namespace Assignment_2_OOP_Demo
             //{
             //    Console.WriteLine(person[i]);
             //}
+            #endregion
+
+            #region Q2
+            //Person[] person = new Person[3];
+            //string name;
+            //int age;
+            //bool Flag;
+            //for (int i = 0; i < person.Length;)
+            //{
+            //    Console.WriteLine($"Enter the person {i+1} details : ");
+            //    Console.Write($"Name [{i+1}] : "); 
+            //    name = Console.ReadLine();
+            //    Console.Write($"Age [{i+1}] : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out age);
+            //    if ( Flag && age > 0 )
+            //    {
+            //        person[i] = new Person(name, age);
+            //        i++;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(" ");
+            //        Console.WriteLine("Invalid input. Please enter a valid name and a positive integer for age.");
+            //        Console.WriteLine(" ");
+            //    }
+
+            //}
+            //Person oldestperson = person[0];
+            //for (int i = 0; i < person.Length; i++)
+            //{
+            //    if (person[i].Age > oldestperson.Age)
+            //    {
+            //        oldestperson = person[i];
+            //    }
+            //}
+            //Console.WriteLine(" ");
+            //Console.WriteLine($"The oldest person is: {oldestperson.Name} , Age: {oldestperson.Age}");
             #endregion
             #endregion
             #endregion
