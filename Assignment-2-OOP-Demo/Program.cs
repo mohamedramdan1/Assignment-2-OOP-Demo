@@ -60,6 +60,14 @@ namespace Assignment_2_OOP_Demo
             //Console.WriteLine(c01);
             #endregion
             #endregion
+
+            #region Assignment
+            #region Part01
+            #region Q1
+            //the Demo we try all what we learned in lec
+            #endregion
+            #endregion
+            #endregion
         }
     }
 } 
