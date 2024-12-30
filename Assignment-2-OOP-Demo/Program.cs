@@ -5,6 +5,12 @@ namespace Assignment_2_OOP_Demo
 {
     internal class Program
     {
+        static int count = 0;
+        public static int Compare_Employees_By_HireDate(Employees e1, Employees e2)
+        {
+            count += 2; // Count boxing/unboxing when comparing
+            return HiringDate.Compare(e1.Hiredate, e2.Hiredate);
+        }
         static void Main(string[] args)
         {
             #region Demo
@@ -105,8 +111,8 @@ namespace Assignment_2_OOP_Demo
             //        Console.WriteLine("Invalid input. Please enter a valid name and a positive integer for age.");
             //        Console.WriteLine(" ");
             //    }
-
             //}
+
             //Person oldestperson = person[0];
             //for (int i = 0; i < person.Length; i++)
             //{
@@ -117,6 +123,37 @@ namespace Assignment_2_OOP_Demo
             //}
             //Console.WriteLine(" ");
             //Console.WriteLine($"The oldest person is: {oldestperson.Name} , Age: {oldestperson.Age}");
+            #endregion
+            #endregion
+
+            #region Part03
+            #region Q1, Q2 , Q3 , Q4 , Q5 
+            //all in Class Emolpyees.cs 
+            #endregion
+
+            #region Q6 , Q7
+            //Employees[] EmpArr = new Employees[3];
+            //EmpArr[0] = new Employees(1, "Mohamed", 80000, new HiringDate(15, 5, 2010), SecurityLevel.DBA, "M");
+            //EmpArr[1] = new Employees(2, "Gamal", 40000, new HiringDate(10, 3, 2000), SecurityLevel.Guest, "M");
+            //EmpArr[2] = new Employees(3, "Mona", 60000, new HiringDate(25, 12, 2023), SecurityLevel.Secretary, "F");
+
+            //Console.WriteLine("Employees before sorting By HireDate : ");
+            //for (int i = 0; i < EmpArr.Length; i++)
+            //{
+            //    Console.WriteLine(EmpArr[i]);
+            //}
+
+            //Array.Sort(EmpArr,Compare_Employees_By_HireDate);
+            //Console.WriteLine("");
+            //Console.WriteLine("Employees After sorting By HireDate : ");
+            //for (int i = 0; i < EmpArr.Length; i++)
+            //{
+            //    Console.WriteLine(EmpArr[i]);
+            //}
+            //Console.WriteLine("");
+            //Console.WriteLine($"Times Boxing and Unboxing process has occurred :  {count}");
+
+
             #endregion
             #endregion
             #endregion
