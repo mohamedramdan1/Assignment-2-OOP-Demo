@@ -67,6 +67,20 @@ namespace Assignment_2_OOP_Demo
             //the Demo we try all what we learned in lec
             #endregion
             #endregion
+
+            #region Part02
+            #region Q1
+            //Person[] person = new Person[3];
+            //person[0] = new Person("Ali",23);
+            //person[1] = new Person("Mohamed",30);
+            //person[2] = new Person("Nora",15);
+            //Console.WriteLine("Details of Persons Name : Age >> ");
+            //for (int i = 0; i < person.Length; i++)
+            //{
+            //    Console.WriteLine(person[i]);
+            //}
+            #endregion
+            #endregion
             #endregion
         }
     }
